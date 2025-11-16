@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+#button-id {
+    width: 88vw;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.videoContainer-bg {
+    height: 89vh;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.videoContainer-search {
+    height: 89vh;
+    overflow: scroll;
+    scrollbar-width: none;
+    width: 180px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.liveMessage-bg {
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
-.App-link {
-  color: #61dafb;
+#slider-head {
+    font-size: 13px;
+    color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title-text {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(55, 55, 55);
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.channel-title {
+    margin-left: 40px;
+    font-size: 15px;
+    color: #606060;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.views-bg {
+    margin-left: 35px;
+}
+
+.like-views-para {
+    margin-left: 5px;
+    margin-right: 6px;
+    font-size: 14px;
+    color: #606060;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+#watchvideo-card {
+    height: 25vh;
+    width: 92vw;
 }
