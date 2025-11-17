@@ -1,4 +1,4 @@
-const api_Key = "AIzaSyBjodVU5kkWp4irxq2O5JN0qwOg3KO_bCc"
+const api_Key = import.meta.env.
 export const youtube_Apis = 'https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=' + api_Key;
 export const Liked_Apis = 'https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&myRating=like&key=' + api_Key;
 export const Suggestion_Api = "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
